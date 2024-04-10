@@ -89,7 +89,9 @@ A module for FPS measurement.
 Hand sign recognition and finger gesture recognition can add and change training data and re-train the model.
 
 ### Hand sign recognition training
-#### 1.Learning data collection![P_thumb_up](https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/c22cc624-7e1e-4b14-a128-6469c20ad8c5)
+#### 1.Learning data collection ![thumbs up](https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/9058b559-9211-44aa-bad1-613894bdcf0f)
+
+
 
 Press "k" to enter "Logging Key Point" mode to save key points within a frame<br>
 <img src="https://user-images.githubusercontent.com/37477845/102235423-aa6cb680-3f35-11eb-8ebd-5d823e211447.jpg" width="60%"><br><br>
@@ -102,8 +104,8 @@ These are the hand landmarks on each sign.<br>
 Right now, the model is able to recoginse and classify 10 signs, which are:.<br>
 Peace sign, Thumps up, Thumbs down, Yes, No, I love you, Excellent, Really?, Hello, You.<br>
 If necessary, add 3 or later, or delete the existing data of csv to prepare your own training data.<br>
-<img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/c22cc624-7e1e-4b14-a128-6469c20ad8c5" width="25%">
-<img src="https://user-images.githubusercontent.com/37477845/102348855-d2b3ee00-3fe5-11eb-9c6d-b8924092a6d8.jpg" width="25%">　<img src="https://user-images.githubusercontent.com/37477845/102348861-d3e51b00-3fe5-11eb-8b07-adc08a48a760.jpg" width="25%">
+<img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/9058b559-9211-44aa-bad1-613894bdcf0f" width="50%">
+<img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/e42a4155-bdab-4219-9c86-759dcf5cf696" width="25%">　
 
 #### 2.Model training
 Open "[keypoint_classification.ipynb](keypoint_classification.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
