@@ -23,6 +23,7 @@ To exit the ongoing detection window press ESC.<br>
 # Directory
 <pre>
 │  application.py
+|  app.py
 │  keypoint_classification.ipynb
 │  point_history_classification.ipynb
 │
@@ -46,7 +47,8 @@ To exit the ongoing detection window press ESC.<br>
 </pre>
 ### app.py
 The main Program for inference and collecting training data
-
+### application.py
+The GUI app that allows you to start detection or exit the model.
 ### keypoint_classification.ipynb
 The main model training script for Sign language Recognition.
 
