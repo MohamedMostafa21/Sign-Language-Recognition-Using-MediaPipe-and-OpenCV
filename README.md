@@ -92,7 +92,7 @@ Hand sign recognition and finger gesture recognition can add and change training
 #### 1.Learning data collection![P_thumb_up](https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/c22cc624-7e1e-4b14-a128-6469c20ad8c5)
 
 Press "k" to enter "Logging Key Point" mode to save key points within a frame<br>
-<img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/c22cc624-7e1e-4b14-a128-6469c20ad8c5" width="60%"><br><br>
+<img src="https://user-images.githubusercontent.com/37477845/102235423-aa6cb680-3f35-11eb-8ebd-5d823e211447.jpg" width="60%"><br><br>
 Press keys 0 to 9 to save the keypoints to a file called "keypoint.csv" located in the "model/keypoint_classifier" folder as shown below<br>
 1st column represents the pressed number (used as class ID), the rest are the Key point coordinates<br>
 <img src="https://user-images.githubusercontent.com/37477845/102345725-28d26280-3fe1-11eb-9eeb-8c938e3f625b.png" width="80%"><br><br>
@@ -102,7 +102,8 @@ These are the hand landmarks on each sign.<br>
 Right now, the model is able to recoginse and classify 10 signs, which are:.<br>
 Peace sign, Thumps up, Thumbs down, Yes, No, I love you, Excellent, Really?, Hello, You.<br>
 If necessary, add 3 or later, or delete the existing data of csv to prepare your own training data.<br>
-<img src="https://user-images.githubusercontent.com/37477845/102348846-d0519400-3fe5-11eb-8789-2e7daec65751.jpg" width="25%">　<img src="https://user-images.githubusercontent.com/37477845/102348855-d2b3ee00-3fe5-11eb-9c6d-b8924092a6d8.jpg" width="25%">　<img src="https://user-images.githubusercontent.com/37477845/102348861-d3e51b00-3fe5-11eb-8b07-adc08a48a760.jpg" width="25%">
+<img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/c22cc624-7e1e-4b14-a128-6469c20ad8c5" width="25%">
+<img src="https://user-images.githubusercontent.com/37477845/102348855-d2b3ee00-3fe5-11eb-9c6d-b8924092a6d8.jpg" width="25%">　<img src="https://user-images.githubusercontent.com/37477845/102348861-d3e51b00-3fe5-11eb-8b07-adc08a48a760.jpg" width="25%">
 
 #### 2.Model training
 Open "[keypoint_classification.ipynb](keypoint_classification.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
