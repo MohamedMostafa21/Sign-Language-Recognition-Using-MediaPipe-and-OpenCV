@@ -89,9 +89,10 @@ A module for FPS measurement.
 Hand sign recognition and finger gesture recognition can add and change training data and re-train the model.
 
 ### Hand sign recognition training
-#### 1.Learning data collection
+#### 1.Learning data collection![P_thumb_up](https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/c22cc624-7e1e-4b14-a128-6469c20ad8c5)
+
 Press "k" to enter "Logging Key Point" mode to save key points within a frame<br>
-<img src="https://user-images.githubusercontent.com/37477845/102235423-aa6cb680-3f35-11eb-8ebd-5d823e211447.jpg" width="60%"><br><br>
+<img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/c22cc624-7e1e-4b14-a128-6469c20ad8c5" width="60%"><br><br>
 Press keys 0 to 9 to save the keypoints to a file called "keypoint.csv" located in the "model/keypoint_classifier" folder as shown below<br>
 1st column represents the pressed number (used as class ID), the rest are the Key point coordinates<br>
 <img src="https://user-images.githubusercontent.com/37477845/102345725-28d26280-3fe1-11eb-9eeb-8c938e3f625b.png" width="80%"><br><br>
