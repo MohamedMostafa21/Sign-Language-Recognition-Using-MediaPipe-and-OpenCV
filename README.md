@@ -11,30 +11,17 @@ This repository contains the following contents.
 # Requirements
 * Check the requirements.txt 
 # Running the Model
-Here's how to run the model using your webcam.
+to run the model using your webcam, just type
 ```bash
-python app.py
+python application.py
 ```
-
-Here is how to run the model using Docker and a webcam.
-```bash
-docker build -t hand_gesture .
-
-xhost +local: && \
-docker run --rm -it \
---device /dev/video0:/dev/video0 \
--v `pwd`:/home/user/workdir \
--v /tmp/.X11-unix/:/tmp/.X11-unix:rw \
--e DISPLAY=$DISPLAY \
-hand_gesture:latest
-
-python app.py
-```
-
+<br>
+Then a simple GUI window will open.<br>
+Press "Start Detection" to use the model, or "Exit" to leave.
 
 # Directory
 <pre>
-│  app.py
+│  application.py
 │  keypoint_classification.ipynb
 │  point_history_classification.ipynb
 │
