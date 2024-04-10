@@ -89,8 +89,7 @@ A module for FPS measurement.
 Hand sign recognition and finger gesture recognition can add and change training data and re-train the model.
 
 ### Hand sign recognition training
-#### 1.Learning data collection ![thumbs up](https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/9058b559-9211-44aa-bad1-613894bdcf0f)
-
+#### 1.Learning data collection 
 
 
 Press "k" to enter "Logging Key Point" mode to save key points within a frame<br>
@@ -103,7 +102,7 @@ These are the hand landmarks on each sign.<br>
 <img src="https://user-images.githubusercontent.com/37477845/102244114-418a3c00-3f3f-11eb-8eef-f658e5aa2d0d.png" width="80%"><br><br>
 Right now, the model is able to recoginse and classify 10 signs, which are:.<br>
 Peace sign, Thumps up, Thumbs down, Yes, No, I love you, Excellent, Really?, Hello, You.<br>
-If necessary, add 3 or later, or delete the existing data of csv to prepare your own training data.<br>
+If necessary, add 3 or later, or delete the existing data of csv to prepare your own training data.<br><br>
 <img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/9058b559-9211-44aa-bad1-613894bdcf0f" width="50%">
 <img src="https://github.com/MohamedMostafa21/Sign-Language-Recognition-Using-MediaPipe-and-OpenCV/assets/115514135/e42a4155-bdab-4219-9c86-759dcf5cf696" width="25%">　
 
@@ -140,5 +139,5 @@ The image of the model prepared in "[point_history_classification.ipynb](point_h
 # Reference
 * [MediaPipe](https://mediapipe.dev/)
 * [Kazuhito00/mediapipe-python-sample](https://github.com/Kazuhito00/mediapipe-python-sample)
-
+* [Kazuhito00/hand-gesture-recognition-using-mediapipe](https://github.com/Kazuhito00/hand-gesture-recognition-using-mediapipe)
 
