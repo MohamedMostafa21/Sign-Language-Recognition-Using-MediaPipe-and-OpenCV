@@ -88,7 +88,7 @@ A module for FPS measurement.
 # Training
 Hand sign recognition and finger gesture recognition can add and change training data and re-train the model.
 
-### Hand sign recognition training
+### Sign Language recognition training
 #### 1.Learning data collection 
 
 
@@ -110,7 +110,7 @@ If necessary, add 3 or later, or delete the existing data of csv to prepare your
 Open "[keypoint_classification.ipynb](keypoint_classification.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
 To change the number of training data classes, change the value of "NUM_CLASSES = 10" <br>and modify the label of "model/keypoint_classifier/keypoint_classifier_label.csv" as appropriate.<br><br>
 
-#### X.Model structure
+#### Model structure
 The image of the model prepared in "[keypoint_classification.ipynb](keypoint_classification.ipynb)" is as follows.
 <img src="https://user-images.githubusercontent.com/37477845/102246723-69c76a00-3f42-11eb-8a4b-7c6b032b7e71.png" width="50%"><br><br>
 
@@ -121,7 +121,7 @@ Press "h" to enter the "Logging Point History" mode to save the history of finge
 IPress keys 0 to 9 to save the keypoints to a file called "point_history.csv" located in the "model/point_history_classifier" folder as shown below.<br>
 1st column represents the pressed number (used as class ID), the rest are the Coordinates History<br>
 <img src="https://user-images.githubusercontent.com/37477845/102345850-54ede380-3fe1-11eb-8d04-88e351445898.png" width="80%"><br><br>
-The key point coordinates are the ones that have undergone the following preprocessing up to ④.<br>
+
 <img src="https://user-images.githubusercontent.com/37477845/102244148-49e27700-3f3f-11eb-82e2-fc7de42b30fc.png" width="80%"><br><br>
 In the initial state, 4 types of learning data are included: stationary, clockwise, counterclockwise, and moving. <br>
 If necessary, add 5 or later, or delete the existing data of csv to prepare the training data.<br>
@@ -131,7 +131,7 @@ If necessary, add 5 or later, or delete the existing data of csv to prepare the 
 Open "[point_history_classification.ipynb](point_history_classification.ipynb)" in Jupyter Notebook and execute from top to bottom.<br>
 To change the number of training data classes, change the value of "NUM_CLASSES = 4" and <br>modify the label of "model/point_history_classifier/point_history_classifier_label.csv" as appropriate. <br><br>
 
-#### X.Model structure
+#### Model structure
 The image of the model prepared in "[point_history_classification.ipynb](point_history_classification.ipynb)" is as follows.
 <img src="https://user-images.githubusercontent.com/37477845/102246771-7481ff00-3f42-11eb-8ddf-9e3cc30c5816.png" width="50%"><br>
 
