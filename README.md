@@ -18,7 +18,7 @@ python application.py
 <br>
 Then a simple GUI window will open.<br>
 Press "Start Detection" to use the model, or "Exit" to leave.<br>
-To exit the ongoing detection window press ESC.
+To exit the ongoing detection window press ESC.<br>
 # Directory
 <pre>
 │  application.py
